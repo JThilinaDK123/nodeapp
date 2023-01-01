@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thilina9718/node-js-test
+        image: thilina9718/node-js-test:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
